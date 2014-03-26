@@ -1,0 +1,4 @@
+maozedong_security_test:
+    resource: "@MaozedongSecurityTestBundle/Resources/config/routing.yml"
+    prefix:   /
+

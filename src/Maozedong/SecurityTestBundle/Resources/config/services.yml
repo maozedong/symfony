@@ -1,0 +1,7 @@
+parameters:
+#    maozedong_security_test.example.class: Maozedong\SecurityTestBundle\Example
+
+services:
+#    maozedong_security_test.example:
+#        class: %maozedong_security_test.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
