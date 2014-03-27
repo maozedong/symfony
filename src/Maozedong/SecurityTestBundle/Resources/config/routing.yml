@@ -1,3 +1,7 @@
 maozedong_security_test_homepage:
     pattern:  /hello/{name}
     defaults: { _controller: MaozedongSecurityTestBundle:Default:index }
+
+login:
+    pattern: /login
+    defaults: { _controller: MaozedongSecurityTestBundle:Security:login }
