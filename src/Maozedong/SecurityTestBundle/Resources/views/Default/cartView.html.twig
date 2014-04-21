@@ -1,0 +1,12 @@
+hello, I'm cart view
+
+{% block content %}
+    <div class="payment-wrapper">
+        {{ stripe_render() }}
+    </div>
+{% endblock content %}
+
+{% block foot_script %}
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    {{ stripe_scripts() }}
+{% endblock foot_script %}

@@ -1,7 +1,11 @@
 maozedong_security_test_homepage:
-    pattern:  /hello/{name}
+    pattern:  /
     defaults: { _controller: MaozedongSecurityTestBundle:Default:index }
 
-login:
-    pattern: /login
-    defaults: { _controller: MaozedongSecurityTestBundle:Security:login }
+maozedong_security_test_cart_view:
+    pattern:  /cart_view
+    defaults: { _controller: MaozedongSecurityTestBundle:Default:cartView }
+
+maozedong_security_test_homepage:
+    pattern:  /
+    defaults: { _controller: MaozedongSecurityTestBundle:Default:index }
